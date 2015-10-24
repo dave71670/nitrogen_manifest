@@ -475,7 +475,7 @@
 	<project path="vendor/lge/geehrc" name="proprietary_vendor_lge_geehrc" remote="nos" revision="marshmallow-release"/>
 	<!-- Kernel geehrc -->
 	<project path="kernel/lge/geehrc" name="android_kernel_lge_geehrc" remote="nos" revision="master-exp"/>
-	<!-- E975 -->
+	<!-- E975
 	<project path="device/lge/e975" name="android_device_lge_e975" remote="nos" revision="nitrogen" />
-	<project path="vendor/lge/e975" name="adnroid_vendor_lge_e975" remote="Mr-MEX" revision="marshmallow-release"/>
+	<project path="vendor/lge/e975" name="adnroid_vendor_lge_e975" remote="Mr-MEX" revision="marshmallow-release"/-->
 </manifest>
