@@ -20,6 +20,10 @@
 		fetch="https://github.com/xyyx"
 		sync-j="16">
 
+	<remote name="Mr-MEX"
+		fetch="https://github.com/Mr-MEX"
+		sync-j="16">
+
 	<remote name="zephik"
 		fetch="https://github.com/zephiK"
 		sync-j="6"/>
@@ -466,13 +470,12 @@
 	<project path="hardware/libhardware" name="android_hardware_libhardware" remote="nos" revision="cm-13.0" />
 	<project path="external/busybox" name="android_external_busybox" remote="cm" revision="cm-13.0" />
 	<project path="external/google" name="android_external_google" remote="nos" revision="marshmallow-6.0" />
-	<!-- Devices -->
-		<!-- geehrc -->
-		<project path="device/lge/geehrc" name="android_device_lge_geehrc" remote="xyyx" revision="chroma"/>
-		<project path="vendor/lge/geehrc" name="proprietary_vendor_lge_geehrc" remote="xyyx" revision="master"/>
-		<!-- E975 -->
-		<project path="device/lge/e975" name="android_device_lge_e975" remote="nos" revision="nitrogen" />
-		<project path="vendor/lge/e975" name="adnroid_vendor_lge_e975" remote="nos" revision="marshmallow-release"/>
-		<!-- Kernel geehrc -->
-		<project path="kernel/lge/geehrc" name="android_kernel_lge_geehrc" remote="nos" revision="master-exp"/>
+	<!-- geehrc -->
+	<project path="device/lge/geehrc" name="android_device_lge_geehrc" remote="nos" revision="mm6.0"/>
+	<project path="vendor/lge/geehrc" name="proprietary_vendor_lge_geehrc" remote="nos" revision="marshmallow-release"/>
+	<!-- Kernel geehrc -->
+	<project path="kernel/lge/geehrc" name="android_kernel_lge_geehrc" remote="nos" revision="master-exp"/>
+	<!-- E975 -->
+	<project path="device/lge/e975" name="android_device_lge_e975" remote="nos" revision="nitrogen" />
+	<project path="vendor/lge/e975" name="adnroid_vendor_lge_e975" remote="Mr-MEX" revision="marshmallow-release"/>
 </manifest>
