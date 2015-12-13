@@ -3,7 +3,7 @@ Nitrogen OS Manifest
 
 To initialize your local repository use
 
-    repo init -u https://github.com/nitrogen-project/nitrogen_manifest.git -b mm6.0
+    repo init -u https://github.com/dave71670/nitrogen_manifest.git -b mm6.0
     
 
 Then to sync up:
