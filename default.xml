@@ -7,7 +7,7 @@
 
 	<remote name="nos"
 		fetch="https://github.com/nitrogen-project"
-		sync-j="16"/>
+		sync-j="8"/>
 		
 	<remote  name="github"
            fetch="git://github.com/"
