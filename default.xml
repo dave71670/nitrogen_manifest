@@ -7,11 +7,9 @@
 
 	<remote name="nos"
 		fetch="https://github.com/nitrogen-project"
-		sync-j="8"/>
 		
 	<remote  name="github"
            fetch="git://github.com/"
-           sync-j="8" />
 
 	<!--
 		Android Open Source Project
